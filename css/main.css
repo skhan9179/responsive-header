@@ -75,7 +75,8 @@ a:hover {
 @media only screen and (min-width: 38em) {
 
   html {
-    font: normal 110%/1.4 'Ubuntu', sans-serif;
+    font-size: 110%;
+    line-height: 1.4;
   }
 
   h1 {
@@ -95,6 +96,31 @@ a:hover {
 
 @media only screen and (min-width: 60em) {
 
+  html {
+    font-size: 120%;
+    line-height: 1.5;
+  }
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  h1 {
+    text-align: left;
+    padding: 0 .75rem;
+    margin: 0;
+  }
+
+  nav {
+    width: 60%;
+  }
+
+  a {
+    padding: 0;
+  }
+
 }
 
 @media only screen and (min-width: 90em) {
@@ -102,8 +128,6 @@ a:hover {
 }
 
 /* ## Details
-
-- *Typefaces:* `Ubuntu` (regular, bold)
 - *Paddings:* `5px'
 - *Margins:* `.9rem`
-`120%/1.5`, `130%/1.5`
+ `130%/1.5`
